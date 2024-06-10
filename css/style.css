@@ -1,0 +1,144 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:wght@300;400; */
+
+
+
+@font-face {
+    font-family: rajdhani;
+    src: url(../police/Rajdhani-Medium.ttf);
+}
+:root{
+    --yellow-color:#FFFF00;
+    --yellow-light:#F8F184;
+    --blue:#19587D;
+    --white-color:#ffffff;
+    --gradient-white:#a3a29e;
+    --gradient-red:#5f040b;
+    --black-color:#0000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{  
+    font-family:'rajdhani';
+    font-size:36;
+    font-weight:400;
+}
+
+buton{   
+    font-family:'rajdhani';
+    font-size:20;
+    font-weight:400;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    background-color:black;
+    color: white;
+    font-family: 'space-grotesk';
+    font-weight: 300;
+}
+/*Disigne de la navigation*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+ul{
+    list-style: none;
+}
+nav ul a{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family:'rajdhani';
+}
+ nav ul a:hover{
+    color: var(--yellow-color)
+}
+/* designe de la partir entete   */
+
+#Hero{
+
+    background-image: url(../Assets/Illustrations/Bathome1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #19587d;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+    justify-content: center 
+}
+
+#Hero .titre{
+    margin: 20px 0;
+}
+.btn{
+    text-decoration: none;
+    color:var(--white-color);
+    font-size: 22px;
+    padding: 10px 40px;
+    background: linear-gradient(
+        80deg,var(--gradient-white),var(--gradient-red)
+    );
+     box-shadow: var(--black-color) 15pc 15pt 50px;
+}
+#Hero .fleche{
+   display: block; 
+   margin: 0 auto;
+  background-color: red;
+  margin-top: 285px;
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 3%;
+    align-items: center;
+    position: fixed;
+    right: 10%;
+    top: 200px;
+}
+.scroll .social{
+    margin-top: 15px;
+}
+
+/* designe de la partie batman personnage   */
+
+.batman-personage{
+    display: flex;
+    justify-content: space-between;
+}
+#batman-cinema .description{
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 80%;
+    font-size: 31px;
+}
+
+/* designe de la partie Nemesis   */
+
+.nemes{
+    display: flex;
+    justify-content: space-between;
+}
+/* designe de la partie alliée   */
+.allie{
+    display: flex;
+    justify-content: space-between;          9 MINUTE
+}
